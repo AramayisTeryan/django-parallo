@@ -1,0 +1,33 @@
+from django.contrib import admin
+from .models import HeadParallo, MobileArt, HomeBody, HomeFoot, FootHomeFoot, AboutParallo, AboutAbout, AboutQuality, AboutFeature, AboutFoot, AboutImage, HomeImage, ServicesParallo, ServicesImage, OurServices, ServicesBody, ServicesFoot, TestimonialsParallo, TestimonialsImage, Testimonials, TestimonialsBody, TestimonialsFoot, ContactParallo, ContactImage, Contact, ContactBody, ContactBodi, ContactFoot
+
+# Register your models here.
+
+admin.site.register(HeadParallo)
+admin.site.register(MobileArt)
+admin.site.register(HomeBody)
+admin.site.register(HomeFoot)
+admin.site.register(FootHomeFoot)
+admin.site.register(AboutParallo)
+admin.site.register(AboutAbout)
+admin.site.register(AboutQuality)
+admin.site.register(AboutFeature)
+admin.site.register(AboutFoot)
+admin.site.register(AboutImage)
+admin.site.register(HomeImage)
+admin.site.register(ServicesParallo)
+admin.site.register(ServicesImage)
+admin.site.register(OurServices)
+admin.site.register(ServicesBody)
+admin.site.register(ServicesFoot)
+admin.site.register(TestimonialsParallo)
+admin.site.register(TestimonialsImage)
+admin.site.register(Testimonials)
+admin.site.register(TestimonialsBody)
+admin.site.register(TestimonialsFoot)
+admin.site.register(ContactParallo)
+admin.site.register(ContactImage)
+admin.site.register(Contact)
+admin.site.register(ContactBody)
+admin.site.register(ContactBodi)
+admin.site.register(ContactFoot)
