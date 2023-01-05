@@ -1,0 +1,2 @@
+# django-parallo
+Python programming
